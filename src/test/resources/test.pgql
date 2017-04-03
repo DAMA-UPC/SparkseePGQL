@@ -1,0 +1,10 @@
+SELECT nYear + 10, COUNT(*)
+WHERE
+  (n),
+  (x)->(y),
+  n.YEAR > 2000
+GROUP BY n.YEAR AS nYear, n
+ORDER BY COUNT(*), nYear+MIN(n.YEAR), nYear +10, n.TITLE
+LIMIT 10
+OFFSET 1
+?
